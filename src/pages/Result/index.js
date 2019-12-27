@@ -34,6 +34,8 @@ export default function Result() {
   useEffect(() => {
     async function loadGitHub() {
       try {
+        setError(null);
+
         const [perfil, repo] = await Promise.all([
           api.get(`/users/${user.user}`),
           api.get(`/users/${user.user}/repos`),
@@ -47,7 +49,7 @@ export default function Result() {
     }
 
     loadGitHub();
-  }, [error, user]);
+  }, [user]);
 
   return (
     <Container>
