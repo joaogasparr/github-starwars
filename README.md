@@ -44,7 +44,7 @@ $> challengeaccepted
 
 ```
 
-## Navigation
+### Navigation
 
 ```
 ● When searching for a user through github login, direct to result screen search
@@ -52,7 +52,7 @@ $> challengeaccepted
 ● If user is found present user details page (Layout result), otherwise display friendly message (Layout NotFound)
 ```
 
-## Requirements
+### Requirements
 
 ```
 ● I as a user wish to search for a GitHub user
@@ -62,7 +62,7 @@ $> challengeaccepted
 ● I, as a user, want to see the listing of this user's repositories that was fetched
 ```
 
-## Definition of done
+### Definition of done
 
 ```
 ● The layout must be implemented according to the Zeplin.io specification.
@@ -71,6 +71,19 @@ $> challengeaccepted
 
 ● The use of routes is required.
 ```
+
+### Preview
+
+
+
+## Home
+<img src=".github/Home.png" width="800px" height="400px" >
+
+## Result 
+<img src=".github/Result.png" width="800px" height="400px" >
+
+## NotFound
+<img src=".github/NotFound.png" width="800px" height="400px" >
 
 ---
 
